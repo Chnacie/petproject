@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #6699CC;
+  background-color: rgba(255, 255, 255, 0.7); 
+  background-image: url("birds1.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+header {
+  background-color: #003B6D;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  color:#6699CC;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.search input[type="text"] {
+  padding: 8px;
+  border: none;
+}
+
+.search button[type="submit"] {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.search button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+.buttons button {
+  padding: 8px 16px;
+  margin-left: 10px;
+  background-color: #555;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons button:first-child {
+  margin-left: 0;
+}
+
+.buttons button:hover {
+  background-color: #333;
+}
+
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+footer {
+  background-color: #003B6D;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-media {
+  margin-top: 10px;
+}
+
+.social-media a {
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 20px;
+  color: #888;
+}
+
+.social-media a:hover {
+  color: #333;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.grid-item {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.column-container {
+  display: flex;
+}
+.top{
+  text-align: center;
+}
+
+
+.circle-button {
+  width: 100px; 
+  height: 100px; 
+  border-radius: 30%;
+  background-color: #f1f1f1;
+  border: 2px solid #000000;
+  color: #000000;
+  font-size: 16px;
+}
+
+.circle-button:hover {
+  background-color: #6699CC; 
+}
+.column {
+  flex: 1;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+    <header>
+      <div class="top">
+      <h1>Paradigm Pet Professionals</h1>
+    
+      </div>
+        <nav>
+      <div class="logo">
+        <img src="logo2.png" alt="Logo">
+      </div>
+    
+      <div class="buttons">
+                <a href="index.html">
+                    <button>Home</button></a>
+            
+                    <a href="cats.html">
+                    <button>Cats</button>
+                    </a>
+            
+                    <a href="dog.html">
+                    <button>Dogs</button>
+                </a>
+                    <a href="bird.html">
+                    <button>Birds</button>
+                </a>
+                    <a href="fish.html">
+                    <button>Fish</button>
+                </a>
+                    <a href="smallpet.html">
+                    <button>Small Pets</button>
+                    </a>
+                    <a href="contact.html">
+                    <button>Talk to expert</button>
+                </a>
+            </div>
+    
+      <div class="search">
+        <input type="text" placeholder="Search">
+        <button type="submit">Search</button>
+      </div>
+    </nav>
+      
+      </header>
+    <main>
+        <section class="hero">
+          
+          <h1> Birds Care</h1>
+          <p>Birds are very intriguing creatures as they can range from birds as small as a Cuban bee hummingbird (about two inches long and a little over 1/20 of an ounce) to as large as an ostrich. While most birds fly, there are some that don't. Birds are amazing and each breed is unique in its own way, particularly when it comes to their relational needs and well-being. Unfortunately, birds can experience sadness and depression just like humans. A number of root causes may be responsible for your bird's depression such as an illness (either physical or mental), losing its companion, or increasingly becoming bored. Some signs to help identify if your bird is experiencing depression may include the following:</p>
+          
+      <div class="column"><ul>
+            <li>•reduced appetite</li>
+            <li>•becoming increasingly irritable</li>
+            <li>•aggressive behavior</li>
+            <li>•Songs have a different, more solemn tone</li>
+          </ul>
+    </div>
+      <div class="column">Be sure to tell your veterinarian if you see signs of any of these symptoms. Just like many illnesses, identifying and treating the symptoms earlier may drastically increase the lifespan of your birdie.</div>
+    </div>
+    <a href="contact.html">
+    <button class="circle-button">Book a consultation</button>
+  </a>
+        </section>
+      </main>
+    
+      <footer>
+      <p>&copy; 2023  Website. All rights reserved.</p>
+      <div class="social-media">
+        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </footer>
+    
+    
